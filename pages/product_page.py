@@ -42,6 +42,5 @@ class ProductPage(BasePage):
     def should_dissapear_of_success_message(self):
         assert self.is_disappeared(*ProductPageLocators.SUCCESS_MESSAGE), \
         "Success message is  not disappeared"
-        #messages :nth-child(1)
 
     
